@@ -1,0 +1,35 @@
+{
+  "name": "ddry-selenium-chrome",
+  "version": "1.0.0",
+  "description": "Google Chrome Selenium driver wrapped ready to use with ddry",
+  "scripts": {
+    "test": "make coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ddry/selenium-chrome"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "keywords": [
+    "ddry",
+    "mocha",
+    "selenium",
+    "webdriver",
+    "chrome"
+  ],
+  "author": "Vassiliy Pimkin <vassiliy.pimkin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ddry-selenium-matchers": "^1.0.1",
+    "selenium-webdriver": "^3.0.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.16",
+    "ddry-mocha": "3.2.0-d0.0.4",
+    "mocha-lcov-reporter": "^1.2.0"
+  }
+}
